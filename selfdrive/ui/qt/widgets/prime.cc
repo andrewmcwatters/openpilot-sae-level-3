@@ -270,8 +270,9 @@ void SetupWidget::replyFinished(const QString &response, bool success) {
 
   QJsonObject json = doc.object();
   bool is_paired = json["is_paired"].toBool();
-  PrimeType prime_type = static_cast<PrimeType>(json["prime_type"].toInt());
-  uiState()->setPrimeType(is_paired ? prime_type : PrimeType::UNPAIRED);
+  // PrimeType prime_type = static_cast<PrimeType>(json["prime_type"].toInt());
+  // uiState()->setPrimeType(is_paired ? prime_type : PrimeType::UNPAIRED);
+  uiState()->setPrimeType(PrimeType::LITE);
 
   if (!is_paired) {
     mainLayout->setCurrentIndex(0);
