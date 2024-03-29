@@ -1,5 +1,10 @@
 # openpilot
-openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for 250+ supported car makes and models.
+openpilot is an open source driver assistance system. openpilot performs the
+functions of Automated Lane Centering and Adaptive Cruise Control for 250+
+supported car makes and models.
+
+## Changes
+ - Disables engage and disengage alerts
 
 ## License
 MIT License
