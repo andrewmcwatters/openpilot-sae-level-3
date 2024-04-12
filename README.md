@@ -5,6 +5,7 @@ supported car makes and models.
 
 ## Changes
  - Disables engage and disengage alerts
+ - Uses [comma-api-server](https://github.com/andrewmcwatters/comma-api-server)
 
 ## License
 MIT License
